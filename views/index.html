@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search</title>
+<style>
+
+  body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-control {
+    border-radius: 4px;
+  }
+
+  .btn-primary {
+    border-radius: 4px;
+  }
+
+  .movie {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .movie h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .favorite {
+    margin-top: 0.5rem;
+  }
+</style>
+
+</head>
+<body>
+    <h1>Movie Search</h1>
+    <form id="searchForm">
+      <input type="text" id="searchQuery" required>
+      <button type="submit">Search</button>
+    </form>
+  
+    <div id="results" class="results-container"></div>
+    <a href="/favorites">View Favorites</a>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
